@@ -13,16 +13,22 @@ const Ratings: React.FC<Rating> = ({ rating }) => {
     switch (roundrating) {
       case 1:
         setStarCount(roundrating);
+        break;
       case 2:
         setStarCount(roundrating);
+        break;
       case 3:
         setStarCount(roundrating);
+        break;
       case 4:
         setStarCount(roundrating);
+        break;
       case 5:
         setStarCount(roundrating);
+        break;
       default:
         setStarCount(roundrating);
+        break;
     }
   }, [rating]);
 

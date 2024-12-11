@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
-import { FilterProvider, useFilter } from "./FilterContext";
-import { Divide, Tally3 } from "lucide-react";
+import { useEffect, useState } from "react";
+import { useFilter } from "./FilterContext";
+import { Tally3 } from "lucide-react";
 import axios from "axios";
 import BookCard from "./BookCard";
 import LoadingUI from "./LoadingUI";

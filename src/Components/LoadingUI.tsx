@@ -1,5 +1,3 @@
-import React from "react";
-
 const LoadingUI = () => {
   return (
     <div className="relative w-full h-screen bg-gray-100">
