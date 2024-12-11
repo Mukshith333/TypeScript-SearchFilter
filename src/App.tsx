@@ -7,7 +7,7 @@ import PopularBlogs from "./Components/PopularBlogs";
 
 export default function App() {
   return (
-    <Router>
+    <Router basename={import.meta.env.BASE_URL}>
       <div className="flex h-screen">
         <SideBar />
         <div className="rounded w-full flex justify-center flex-wrap">
